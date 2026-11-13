@@ -1,0 +1,17 @@
+# Terraform state (contains the API token and other sensitive values)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl.bak
+crash.log
+
+# Variable files that may hold secrets or your IP
+*.tfvars
+*.tfvars.json
+
+# Generated build output
+build/
+
+# Editor/OS files
+.DS_Store
+*.swp
